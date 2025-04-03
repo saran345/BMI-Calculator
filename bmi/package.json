@@ -7,8 +7,10 @@
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
+    "prebuild": "rm -rf dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "netlify-build": "npm run build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
