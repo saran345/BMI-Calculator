@@ -9,7 +9,7 @@
     "build": "vite build",
     "prebuild": "rm -rf dist",
     "lint": "eslint .",
-    "preview": "vite preview --port 8080",
+    "preview": "vite preview ",
     "netlify-build": "npm install && npm run build"
   },
   "dependencies": {
